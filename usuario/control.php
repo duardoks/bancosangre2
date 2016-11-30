@@ -8,7 +8,7 @@ $link = conectarse();
 $usuario = $_POST["usuario"];
 $password = $_POST["password"];
 
-$sql = "SELECT * FROM usuario WHERE codigo_usu = '$usuario' AND clave_usu = '$password' AND nivel_usu='usuario';";
+$sql = "SELECT * FROM usuario WHERE codigo_usu = $usuario AND clave_usu = $password AND nivel_usu='usuario';";
 echo($sql);
 $rs = mysqli_query($link,$sql) or die ("fallo consulta");;
 echo (mysqli_num_rows($rs));

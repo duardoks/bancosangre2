@@ -8,8 +8,8 @@
       <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,700' rel='stylesheet' type='text/css'>
       <link rel="stylesheet" href="../css/stylesUsuario.css"/>
   </head>
-  <body>  
-      <form method="post" action="listaPostulantes.php">
+  <body>
+      <form method="post" action="control.php">
           <div class="container">
               <div class="profile">
                   <button class="profile__avatar" id="toggleProfile">
@@ -40,7 +40,7 @@
               </div>
           </div>
       </form>
-    
+
     <script src="../js/index.js"></script>
   </body>
 </html>
